@@ -5,7 +5,7 @@ import FieldsOfInterest from "./components/FieldsOfInterest.jsx";
 import Footer from "./components/Footer.jsx";
 const Home = () => {
   return (
-    <div className="w-full bg-third ">
+    <div className="w-full bg-third">
       <NavBar />
       <Hero />
       <Skills />

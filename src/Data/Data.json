@@ -1,0 +1,34 @@
+{
+  "skills": [
+    "python",
+    "C",
+    "Linux",
+    "UI / UX",
+    "Problem Solving",
+    "Algorithme and Data Structure",
+    "OO Design & Programming",
+    "SQL"
+  ],
+  "fieldsOfInterest": [
+    ["Data Science", "../src/assets/datascience.png"],
+    ["Desktop Apps Dev", "../src/assets/desktop_apps.png"],
+    ["Cyber Security", "../src/assets/cyber_sec.png"]
+  ],
+  "Achievements": {
+    "Education": [
+      "Experimental Sciences High School Degree (2021) with score 66.15%",
+      "Experimental Sciences High School Degree (2022) with score 76.65%",
+      "Engineer`s Degree in Computer Science, started September 2022."
+    ],
+    "Certificates": [
+      "CS50`s Introduction to Programming with Python. (issued January 2024)",
+      "Currently enrolled in an introduction to data science course with Python",
+      "I am currently pursuing my CCNA certification to advance my knowledge and expertise in networking technologies"
+    ],
+    "ExtracurricularActivities": [
+      "Design team member at GDSC University of Batna 2 (since November 2023)",
+      "Design team leader at GDG Batna (since January 2024)",
+      "Founding Member of the Binary Castle Club at University of Batna 2"
+    ]
+  }
+}

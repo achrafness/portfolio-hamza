@@ -1,17 +1,23 @@
+import { Link } from "react-router-dom";
+
 function Hero() {
   return (
-    <div className="grid grid-cols-2 py-20 px-36 mx-auto justify-start text-xl">
+    <div className="grid md:grid-cols-2 grid-rows-2 py-20 md:px-36 px-8 mx-auto justify-start text-xl">
       <div className="flex items-center w-fit">
         {" "}
         <p>
-          <span className="font-semibold">Hello</span> , my name is
+          <span className="font-semibold">Hello 👋</span> , my name is
           <span className="block text-fourth text-8xl font-bold">HAMZA</span>
           a computer science student , <br />
           and a Python programmer.
-        <div className="flex gap-12 mt-3">
-            <img src="../src/assets/linkedin.png" className="w-8" />
-            <img src="../src/assets/github.png" className="w-8" />
-        </div>
+          <div className="flex gap-12 mt-3">
+            <Link to="https://www.linkedin.com/in/hamza-rouabah/">
+              <img src="../src/assets/linkedin.png" className="w-8" />
+            </Link>
+            <Link to="https://github.com/codingflake">
+              <img src="../src/assets/github.png" className="w-8" />
+            </Link>
+          </div>
         </p>
       </div>
       <div className="flex justify-center">
@@ -20,4 +26,4 @@ function Hero() {
     </div>
   );
 }
-export default Hero
+export default Hero;

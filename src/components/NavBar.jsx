@@ -1,18 +1,26 @@
+import {Link } from "react-router-dom";
+
 function NavBar() {
   return (
-    <div className="w-full bg-transparent py-5">
-      <ul className="flex gap-16 items-center justify-center">
+    <div className="w-full bg-transparent pb-5 pt-8">
+      <ul className="flex md:gap-16 gap-8 items-center justify-center text-first ">
         <li>
-          <a href="" className="font-semibold">About</a>
+          <Link to="/about" className="font-semibold hover:text-fourth">
+            About
+          </Link>
         </li>
         <li>
-          <a href=""><img src="../src/assets/Hamza.svg" alt="Hamza" className="w-28" /></a>
+          <Link to="/">
+            <img src="../src/assets/Hamza.svg" alt="Hamza" className="w-28" />
+          </Link>
         </li>
         <li>
-          <a href="" className="font-semibold">Portfolio</a>
+          <Link to="/portfolio" className="font-semibold hover:text-fourth">
+            Portfolio
+          </Link>
         </li>
       </ul>
     </div>
   );
 }
-export default NavBar
+export default NavBar;
