@@ -1,6 +1,6 @@
 const HeroProject = () => {
   return (
-    <div className="grid md:grid-cols-2 py-10 md:px-36 px-8 mx-auto justify-start text-xl h-fit">
+    <div className="grid md:grid-cols-2 py-10 md:px-36 px-8 mx-auto justify-start text-xl">
       <div className="flex justify-center order-2 md:order-1">
         <img className="w-3/4" src="../src/assets/portfolio_image.png" alt="" />
       </div>

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Hero() {
   return (
-    <div className="grid md:grid-cols-2 grid-rows-2 py-20 md:px-36 px-8 mx-auto justify-start text-xl">
+    <div className="grid md:grid-cols-2  py-20 md:px-36 px-8 mx-auto justify-start text-xl">
       <div className="flex items-center w-fit">
         {" "}
         <p>
