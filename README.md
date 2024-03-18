@@ -1,8 +1,29 @@
-# React + Vite
+# Portfolio Project (hamza)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This portfolio project , designed by Hamza and developed by Achraf Nessighaoui Abdelouadoud.
 
-Currently, two official plugins are available:
+## About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+
+- Design: figma [figma link](https://www.figma.com/file/wWO1Wq0saa0OxkubB28Uqq/Untitled?type=design&t=fjEJRZ4wNpFbGf8x-6)
+- Development: React, Tailwind CSS
+
+## Features
+
+## Screenshots
+
+[Insert screenshots of the project here, if available]
+
+## How to Run
+
+``` bash
+
+npm install
+npm run dev
+
+```
+
+## License
+
+[Insert license information, if applicable]
