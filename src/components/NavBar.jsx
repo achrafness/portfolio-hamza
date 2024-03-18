@@ -11,7 +11,7 @@ function NavBar() {
         </li>
         <li>
           <Link to="/">
-            <img src="../src/assets/Hamza.svg" alt="Hamza" className="w-28" />
+            <img src="../images/Hamza.svg" alt="Hamza" className="w-28" />
           </Link>
         </li>
         <li>

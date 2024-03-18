@@ -1,6 +1,6 @@
 {
   "skills": [
-    "python",
+    "Python",
     "C",
     "Linux",
     "UI / UX",
@@ -10,9 +10,9 @@
     "SQL"
   ],
   "fieldsOfInterest": [
-    ["Data Science", "../src/assets/datascience.png"],
-    ["Desktop Apps Dev", "../src/assets/desktop_apps.png"],
-    ["Cyber Security", "../src/assets/cyber_sec.png"]
+    ["Data Science", "../images/datascience.png"],
+    ["Desktop Apps Dev", "../images/desktop_apps.png"],
+    ["Cyber Security", "../images/cyber_sec.png"]
   ],
   "Achievements": {
     "Education": [
@@ -30,5 +30,25 @@
       "Design team leader at GDG Batna (since January 2024)",
       "Founding Member of the Binary Castle Club at University of Batna 2"
     ]
-  }
+  },
+  "projects":[
+    {
+      "name": "GUI Qr Code Gen",
+      "description": "A simple graphical user interface to facilitate generating qr codes.\nimplemented using:",
+      "technologies": ["PIL", "Qr", "PyQt6"],
+      "link": ""
+    },
+    {
+      "name": "Portfolio Website",
+      "description": "A simple static portfolio website to showcase my skills and provide more information about me. technology I used:",
+      "technologies": ["react","tailwindcss","figma"],
+      "link": ""
+    },
+    {
+      "name": "EventMap Website",
+      "description": "some description about the project and the technologies used to implement it.",
+      "technologies": ["react","express","mongodb","tailwindcss","figma"],
+      "link": ""
+    }
+  ]
 }

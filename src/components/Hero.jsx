@@ -12,16 +12,16 @@ function Hero() {
           and a Python programmer.
           <div className="flex gap-12 mt-3">
             <Link to="https://www.linkedin.com/in/hamza-rouabah/">
-              <img src="../src/assets/linkedin.png" className="w-8" />
+              <img src="../images/linkedin.png" className="w-8" />
             </Link>
             <Link to="https://github.com/codingflake">
-              <img src="../src/assets/github.png" className="w-8" />
+              <img src="../images/github.png" className="w-8" />
             </Link>
           </div>
         </p>
       </div>
       <div className="flex justify-center">
-        <img className="w-3/4" src="../src/assets/hero_image.png" alt="" />
+        <img className="w-3/4" src="../images/hero_image.png" alt="" />
       </div>
     </div>
   );
